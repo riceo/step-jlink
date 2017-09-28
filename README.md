@@ -12,7 +12,8 @@ application.
 Options
 -------
 
-- `add_modules` (default: `java.base) a comma separated list of Java modules to   be included in the custom Java runtime (any dependent modules will also be
+- `add_modules` (default: `java.base`) a comma separated list of Java modules to
+  be included in the custom Java runtime (any dependent modules will also be
   implicitly included).  To list the set of modules of a Java runtime use the
   command `java --list-modules`.
 
@@ -25,4 +26,4 @@ Options
   the custom Java runtime will be placed
 
 Supplying no options will create the smallest possible Java runtime that
-contains just the java.base module.
+contains just the `java.base` module.
